@@ -1,0 +1,1 @@
+function hello(l){console.log("Hello "+l+"!")}var _console;[1,2,3].map(function(l){return 2*l});var bla="blaaaaaa";console.log("Hey "+bla),(_console=console).log.apply(_console,[1,2,3]),hello("Qualy");

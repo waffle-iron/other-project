@@ -1,22 +1,22 @@
 'use strict';
 
-const gulp = require('gulp');
-const plumber = require('gulp-plumber');
-const stylus = require('gulp-stylus');
-const cssnano = require('gulp-cssnano');
-const gcmq = require('gulp-group-css-media-queries');
-const sourcemaps = require('gulp-sourcemaps');
-const jeet = require('jeet');
-const rupture = require('rupture');
-const koutoSwiss = require('kouto-swiss');
-const prefixer = require('autoprefixer-stylus');
-const rollup = require('gulp-rollup');
-const uglify = require('gulp-uglify');
-const jade = require('gulp-jade');
-const imagemin = require('gulp-imagemin');
-const browserSync = require('browser-sync');
-const ghPages = require('gulp-gh-pages');
-const rollupConfig = require('./rollup.config');
+const gulp          = require('gulp');
+const plumber       = require('gulp-plumber');
+const stylus        = require('gulp-stylus');
+const cssnano       = require('gulp-cssnano');
+const gcmq          = require('gulp-group-css-media-queries');
+const sourcemaps    = require('gulp-sourcemaps');
+const jeet          = require('jeet');
+const rupture       = require('rupture');
+const koutoSwiss    = require('kouto-swiss');
+const prefixer      = require('autoprefixer-stylus');
+const rollup        = require('gulp-rollup');
+const uglify        = require('gulp-uglify');
+const jade          = require('gulp-jade');
+const imagemin      = require('gulp-imagemin');
+const browserSync   = require('browser-sync');
+const ghPages       = require('gulp-gh-pages');
+const rollupConfig  = require('./rollup.config');
 
 const srcPaths = {
     js: 'src/js/main.js',
